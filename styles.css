@@ -118,7 +118,6 @@ button:hover {
 .footer {
 	display: inline-block;
 	position: fixed;
-	display: block;
 	clear: both;
 	right: 0;
 	bottom: 0;
@@ -129,28 +128,36 @@ button:hover {
 	background-color: #f8f8f8;
 	height: 20px;
 }
-div .left a {
-	float: left;
-	margin: auto;
-	padding: 5px 12px 5px 12px;
-	color: #7f7f7f;
-	font-size: small;
-    font-family: Arial, sans-serif;
-    text-decoration: none;
+.footer {
+	display: inline-block;
+	position: fixed;
+	clear: both;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
-div .right a {
-	float: right;
-	margin: auto;
-	padding: 5px 12px 5px 12px;
+ul {
+	list-style: none;
+	margin-top: 0;
+	padding: 0;
+}
+li {
+	display: inline;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+a {
 	color: #7f7f7f;
 	font-size: small;
     font-family: Arial, sans-serif;
     text-decoration: none;
     text-align: center;
 }
-a:hover {
-	text-decoration: underline;
+div .left {
+	display: inline;
+	float: left;
 }
-.footer a:hover {
-	text-decoration: underline;
+div .right {
+	float: right;
 }
